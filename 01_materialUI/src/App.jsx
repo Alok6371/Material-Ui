@@ -7,6 +7,9 @@ import Containers from "./componets/Containers";
 import ListComponets from "./componets/ListComponets";
 import Accords from "./componets/Accords";
 import DrawerMenu from "./componets/DrawerMenu";
+import Snackbars from "./componets/Snackbars";
+import Progress from "./componets/Progress";
+import Ratings from "./componets/Ratings";
 
 const App = () => {
 
@@ -57,13 +60,16 @@ const App = () => {
         </Toolbar>
       </AppBar>
 
-      <div style={{ margin: "20vh" }}>
+      <div style={{ marginTop: "30vh" }}>
         {/* <Cards /> */}
         {/* <Models /> */}
         {/* <Containers /> */}
         {/* <ListComponets /> */}
-        <Accords />
-        <DrawerMenu/>
+        {/* <Accords /> */}
+        {/* <DrawerMenu /> */}
+        {/* <Snackbars /> */}
+        {/* <Progress /> */}
+        <Ratings />
       </div>
     </div>
   );
