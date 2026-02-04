@@ -10,6 +10,7 @@ import DrawerMenu from "./componets/DrawerMenu";
 import Snackbars from "./componets/Snackbars";
 import Progress from "./componets/Progress";
 import Ratings from "./componets/Ratings";
+import DataGrid from "./componets/DataGrid";
 
 const App = () => {
 
@@ -69,7 +70,8 @@ const App = () => {
         {/* <DrawerMenu /> */}
         {/* <Snackbars /> */}
         {/* <Progress /> */}
-        <Ratings />
+        {/* <Ratings /> */}
+        <DataGrid />
       </div>
     </div>
   );
