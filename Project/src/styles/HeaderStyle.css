@@ -1,0 +1,35 @@
+.navigation-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  li {
+    margin: 0 20px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+.boxMobilenavigation {
+  height: 100vh;
+  background: rgb(48, 101, 145);
+}
+
+.mobile-navigation {
+  width: 40vw;
+  li {
+    margin: 10px;
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    background: #698edf;
+
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    /* padding: 3px 40px; */
+  }
+}

@@ -36,7 +36,7 @@ const rows = [
 
 const paginationModel = { page: 0, pageSize: 5 };
 
-const DataGrid = () => {
+const DataGrids = () => {
     return (
         <Paper>
             <DataGrid
@@ -51,4 +51,4 @@ const DataGrid = () => {
     );
 }
 
-export default DataGrid
+export default DataGrids
